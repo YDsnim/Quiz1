@@ -1,4 +1,4 @@
-package edu.mit.logic;
+package logic;
 
 import lombok.RequiredArgsConstructor;
 

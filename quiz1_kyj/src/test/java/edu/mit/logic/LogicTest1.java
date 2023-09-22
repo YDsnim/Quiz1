@@ -2,6 +2,7 @@ package edu.mit.logic;
 
 import org.junit.Test;
 
+import logic.Mylogic;
 import lombok.extern.log4j.Log4j;
 @Log4j
 //@RunWith()

@@ -1,4 +1,4 @@
-package edu.mit.dao;
+package dao;
 
 import java.util.Date;
 
