@@ -31,10 +31,10 @@
 	</bean>		
 		
 		<!-- mybatis가 읽어들일 기본 맵퍼가 있는 패키지 위치 설정 -->
-	<mybatis-spring:scan base-package="dao" />
+	<mybatis-spring:scan base-package="edu.mit.dao" />
 		
 		
 		<!-- 읽어들일 패키지들  -->
-	<context:component-scan base-package="logic" />
+	<context:component-scan base-package="edu.mit.logic" />
 		
 </beans>

@@ -2,7 +2,7 @@ package edu.mit.logic;
 
 import org.junit.Test;
 
-import logic.Mylogic2;
+import edu.mit.logic.Mylogic2;
 import lombok.extern.log4j.Log4j;
 
 @Log4j

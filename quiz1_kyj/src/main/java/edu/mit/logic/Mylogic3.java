@@ -1,4 +1,4 @@
-package logic;
+package edu.mit.logic;
 
 import org.springframework.stereotype.Component;
 

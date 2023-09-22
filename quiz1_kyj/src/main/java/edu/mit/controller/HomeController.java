@@ -1,4 +1,4 @@
-package controller;
+package edu.mit.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
