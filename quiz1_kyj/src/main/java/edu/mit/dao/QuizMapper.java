@@ -1,14 +1,11 @@
 package edu.mit.dao;
 
-import org.springframework.stereotype.Controller;
+import java.util.Date;
 
-import lombok.extern.log4j.Log4j;
+public interface QuizMapper {
 
-@Log4j
-@Controller
-public class QuizMapper {
+	Date now();
 
-	
 	
 	
 }
