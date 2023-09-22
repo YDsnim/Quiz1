@@ -11,7 +11,7 @@ public class Mylogic {
 		int sum = 0;
 		for (int i = num1; i <= num2; i++) {
 			
-			 sum =+ i;
+			 sum += i;
 		}
 		
 		System.out.println("addup 리턴");
@@ -25,7 +25,10 @@ public class Mylogic {
 		
 		for (int i = num1; i <= num2; i++) {
 			
-			if(i/2==0){sum=+i;}
+			if(i%2 == 0){
+				sum+=i;
+				System.out.println(i);
+			}
 		
 		}
 		System.out.println("evenaddup 리턴");
