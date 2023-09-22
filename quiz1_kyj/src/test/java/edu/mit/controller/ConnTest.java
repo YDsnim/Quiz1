@@ -1,5 +1,7 @@
 package edu.mit.controller;
 
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.log;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -7,6 +9,8 @@ import java.sql.Statement;
 
 import org.junit.Test;
 
+import lombok.extern.log4j.Log4j;
+@Log4j
 public class ConnTest {
 	
 	@Test
@@ -27,4 +31,9 @@ public class ConnTest {
 		
 	}
 
+	@Test
+	public void jdbcTest() {
+		log.info("잘 나와?");
+	}
+	
 }
