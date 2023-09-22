@@ -18,13 +18,15 @@ public class ConnTest {
 		
 		try {
 
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("db연결 중");
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/", 
 					"root","1234");
+			System.out.println("conn:"+conn);
 			System.out.println("db연결 성공");
 			Statement stmt = conn.createStatement();
 
-		} catch (SQLException ex) {
+		} catch (Exception ex) {
 			System.out.println("db연결 실패");
 			System.out.println("SQLException" + ex);
 		}

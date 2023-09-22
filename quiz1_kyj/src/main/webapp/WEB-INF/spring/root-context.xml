@@ -13,8 +13,8 @@
 	
 <!-- hikari config -->
 	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
- 		<property name="driverClassName" value="oracle.jdbc.pool.OracleDataSource"></property>
-		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306:"></property> 
+ 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306"></property> 
          <!-- Oracle 11g 경우 value="jdbc:oracle:thin:@URL주소:1521:XE" -->
          <!-- Oracle 19  경우 value="jdbc:oracle:thin:@URL주소:1521:orcl" -->
 		<property name="username" value="root"></property>
