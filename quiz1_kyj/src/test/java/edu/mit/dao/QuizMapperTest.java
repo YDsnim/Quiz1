@@ -22,6 +22,7 @@ import lombok.extern.log4j.Log4j;
 	@Test
 	public void nowtime() {
 		log.info("지금시간 db로부터  출력"+mapper.now());
+//		테스트 성공
 	}
 	
 }
